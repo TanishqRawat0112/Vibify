@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibify - Music on Web : Vibe with Me! </title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left border">
+            <div class="close">
+                <img class="invert" src="images/close.svg" alt="Close">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1 mt-zero">
+                <div class="logo">
+                    <img width="110px" class="invert" src="images/logo.svg" alt="Vibify logo">
+                </div>
+                <ul>
+                    <li><img class="invert" src="images/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="images/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1 mt-zero">
+                <div class="heading">
+                    <img src="images/library.svg" alt="library" class="invert">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="songContainer">
+                    <div class="songList color-gray">
+                        <ul>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right border bg-gray rounded ">
+            <div class="header rounded">
+                <div class="nav">
+                    <div class="hamburger">
+                        <img src="images/hamburger.svg" alt="Hamburger">
+                    </div>
+                    <img src="images/nav-left.svg" alt="Left">
+                    <img src="images/nav-right.svg" alt="Right">
+                </div>
+                <div class="buttons">
+                    <button class="signupBtn">Sign up</button>
+                    <button class="loginBtn">Log in</button>
+                </div>
+            </div>
+            <div class="vibifyPlaylists rounded">
+                <h1>
+                    Vibify Playlists
+                </h1>
+                <div class="cardContainer">
+                    
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="aboveBar">
+                        <div class="songInfo"></div>
+                        <div class="songsButtons">
+                            <img width="35" id="previous" src="images/pevious.svg" alt="Previous">
+                            <img width="35" id="play" src="images/play-song.svg" alt="Play Song">
+                            <img width="35" id="next" src="images/next.svg" alt="Next">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img id="volume" src="images/volume.svg" alt="">
+                                <div class="range">
+                                    <input class="invert" type="range" name="volume">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script2.js"></script>
+</body>
+
+</html>

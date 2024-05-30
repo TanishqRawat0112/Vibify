@@ -1,0 +1,98 @@
+/* .border{
+    border: 2px solid red;
+    margin: 5px;
+    border-radius: 3px;
+} */
+
+.color-gray{
+    color: rgb(179, 177, 177);
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.mt-zero{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Change this to the desired color for the scrollbar thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #111; /* Change this to the desired color for the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Change this to the desired color for the scrollbar thumb on hover */
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 80px;
+      -webkit-appearance: none;
+      background-color: #9a905d;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      border-radius: 30px;
+      cursor: ew-resize;
+      background: #f9f8f8;
+      box-shadow: -80px 0 0 80px #1abf41;
+    }
+
+}
+  
